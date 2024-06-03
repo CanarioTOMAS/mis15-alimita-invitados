@@ -98,7 +98,7 @@ const MusicPlayer: React.FC = () => {
 
   return (
     <Box component="section">
-      <audio ref={audioRef} src={playlist[currentSongIndex]} />
+      <audio ref={audioRef} src={playlist[currentSongIndex]} autoPlay={true} />
 
       <Paper sx={{ position: 'fixed', bottom: 0, left: 0, right: 0 }} elevation={3}>
         <BottomNavigation>
