@@ -18,9 +18,10 @@ import {
   Grid,
   Typography,
 } from "@mui/material";
+
 export default function Home() {
   return (
-    <div>
+    <div className="bg-[url('../public/fondo21.jpg')] bg-contain ">
       <Header></Header>
       <Welcome></Welcome>
       <Timer initialTime={new Date("2024-07-20T00:00:00").getTime()}></Timer>
@@ -37,7 +38,7 @@ export default function Home() {
           style={{
             width: "100%",
             maskImage:
-              "linear-gradient(to bottom, transparent, black 30%, black 20% ,transparent )",
+              "linear-gradient(to bottom, transparent, black 15%, black 85% ,transparent )",
           }}
         />
       </Box>
@@ -57,8 +58,11 @@ export default function Home() {
         <Grid item xs={12} md={4} p={6}>
           <Card
             sx={{
-              background: "radial-gradient(circle, #eeeeee 0%, #d7d7d7 100%)",
+              // background: "radial-gradient(circle, #eeeeee 0%, #d7d7d7 100%)",
+              boxShadow: '10px 10px 5px 0px rgba(217,217,217,0.5)',
+              borderRadius:'20px'
             }}
+            className="bg-[url('../public/13.png')] bg-cover"
           >
             <CardContent sx={{ textAlign: "center" }}>
               <Typography
@@ -114,7 +118,7 @@ export default function Home() {
           style={{
             width: "100%",
             maskImage:
-              "linear-gradient(to bottom, transparent, black 30%, black 20% ,transparent )",
+              "linear-gradient(to bottom, transparent, black 15%, black % ,transparent )",
           }}
         />
       </Box>
