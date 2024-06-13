@@ -118,7 +118,7 @@ export default function Home() {
       <Box sx={{p:6, pb:10,width: "100%",
           justifyContent: "center",
           alignItems: "center",textAlign:'center'}}>
-        <Button href="https://forms.gle/utRPutzkzEgH6gtX8" sx={{ bgcolor: "black", color: "white", borderRadius: 60 ,width:'60%'}}>Confirmar</Button>
+        <Button href="https://forms.gle/utRPutzkzEgH6gtX8" sx={{ bgcolor: "black", color: "white", borderRadius: 60 ,width:'60%'}}>Confirmar Asistencia</Button>
       </Box>
       <MusicPlayer></MusicPlayer>
     </div>
