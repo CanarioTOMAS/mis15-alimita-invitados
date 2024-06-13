@@ -25,7 +25,7 @@ export const Dresscode = () => {
             textAlign: "center",
             fontFamily: "Mate",
             color: "black",
-            fontWeight: 700,
+            fontWeight: 900,
           }}
         >
           <svg
@@ -45,7 +45,7 @@ export const Dresscode = () => {
         <Typography variant="h4" fontFamily={"Libre Baskerville"}>
           ELEGANTE
         </Typography>
-        <Typography variant="body1" fontFamily={"Libre Baskerville"}>
+        <Typography variant="h6" fontFamily={"Libre Baskerville"}>
           No ir de plateado ni dorado
         </Typography>
       </CardContent>

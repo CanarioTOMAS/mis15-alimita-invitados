@@ -98,7 +98,7 @@ export const Timer = ({ initialTime }: { initialTime: number }) => {
             {timeLeft.days<10?`0${timeLeft.days}`:`${timeLeft.days}`}
           </Box>
         </Typography>
-          <Typography variant="h5" sx={{marginTop:'20px',fontSize: '20px',fontFamily:'Mate',color:"white"}}>Días</Typography>
+          <Typography variant="h5" sx={{marginTop:'20px',fontSize: '20px',fontFamily:'Mate',color:"black"}}>Días</Typography>
       </Box>
     </Container>
          
@@ -150,7 +150,7 @@ export const Timer = ({ initialTime }: { initialTime: number }) => {
             {timeLeft.hours<10?`0${timeLeft.hours}`:`${timeLeft.hours}`}
           </Box>
         </Typography>
-      <Typography variant="h5" sx={{marginTop:'20px',fontSize: '20px',fontFamily:'Mate',color:"white"}}>Horas</Typography>
+      <Typography variant="h5" sx={{marginTop:'20px',fontSize: '20px',fontFamily:'Mate',color:"black"}}>Horas</Typography>
       </Box>
     </Container>
         </Grid>
@@ -201,7 +201,7 @@ export const Timer = ({ initialTime }: { initialTime: number }) => {
             {timeLeft.minutes<10?`0${timeLeft.minutes}`:`${timeLeft.minutes}`}
           </Box>
         </Typography>
-      <Typography variant="h5" sx={{marginTop:'20px',fontSize: '20px',fontFamily:'Mate',color:"white"}}>Minutos</Typography>
+      <Typography variant="h5" sx={{marginTop:'20px',fontSize: '20px',fontFamily:'Mate',color:"black"}}>Minutos</Typography>
       </Box>
           </Container>
         </Grid>
@@ -252,7 +252,7 @@ export const Timer = ({ initialTime }: { initialTime: number }) => {
             {timeLeft.seconds<10?`0${timeLeft.seconds}`:`${timeLeft.seconds}`}
           </Box>
         </Typography>
-      <Typography variant="h5" sx={{marginTop:'20px',fontSize: '20px',fontFamily:'Mate',color:"white"}}>Segundos</Typography>
+      <Typography variant="h5" sx={{marginTop:'20px',fontSize: '20px',fontFamily:'Mate',color:"black"}}>Segundos</Typography>
       </Box>
           </Container>
         </Grid>

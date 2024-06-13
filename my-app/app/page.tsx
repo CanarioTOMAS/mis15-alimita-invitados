@@ -89,19 +89,10 @@ export default function Home() {
                 </svg>
                 MENÚ
               </Typography>
-              <Typography variant="body1" fontFamily={"Libre Baskerville"}>
-                Recordá, si tenes algun problema alimentición hacemelo saber
+              <Typography variant="h6" fontFamily={"Libre Baskerville"}>
+                Recordá, si tenes algun problema alimentición hacemelo saber cuando confirmes asistencia
               </Typography>
             </CardContent>
-            <CardActions sx={{ textAlign: "center", m: "auto" }}>
-              <Button
-                sx={{ bgcolor: "black", color: "white", borderRadius: 60 }}
-                fullWidth
-                href="https://www.google.com/maps/dir//Pres.+Juan+Domingo+Per%C3%B3n+542,+R%C3%ADo+Tercero,+C%C3%B3rdoba/@-32.1616128,-64.1953845,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x95cd6f32b36c0191:0xafbad8a8d350358e!2m2!1d-64.1130126!2d-32.1616067?entry=ttu"
-              >
-                VER MENÚ
-              </Button>
-            </CardActions>
           </Card>
         </Grid>
       </Grid>
@@ -124,15 +115,15 @@ export default function Home() {
         />
       </Box>
       <GiftComponent></GiftComponent>
-      <Box sx={{p:6,pb:16, width: "100%",
+      <Box sx={{p:6, width: "100%",
           justifyContent: "center",
           alignItems: "center",textAlign:'center'}}>
-        <Typography variant="h3" sx={{textAlign:"center", fontFamily:"Libre Baskerville",color:'white', fontSize:"6.5rem"}} >CONFIRMAR ASISTENCIA</Typography>
-        <Typography variant="h5">
+        <Typography variant="h3" sx={{textAlign:"center", fontFamily:"Libre Baskerville",color:'black',fontWeight:900}} >CONFIRMAR ASISTENCIA</Typography>
+        <Typography variant="h5" sx={{fontFamily:'Mate'}}>
           Adultos - $25.000<br></br> Adolescentes(14 a 16) - $16.000 <br></br>
           Niños(3 a 13) - $7.500 <br></br>Menores de 3 no pagan
         </Typography>
-        <Button href="https://forms.gle/utRPutzkzEgH6gtX8" sx={{ bgcolor: "black", color: "white", borderRadius: 60 }}>Confirmar</Button>
+        <Button href="https://forms.gle/utRPutzkzEgH6gtX8" sx={{ bgcolor: "black", color: "white", borderRadius: 60 ,width:'60%'}}>Confirmar</Button>
       </Box>
       <MusicPlayer></MusicPlayer>
     </div>

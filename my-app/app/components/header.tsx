@@ -34,7 +34,7 @@ export const Header = () => {
           variant="h1"
           fontFamily={"Libre Baskerville"}
           fontWeight={700}
-          fontSize={"6.5rem"}
+          fontSize={"5rem"}
           sx={{
             background: 'linear-gradient(45deg, #e0e0e0, #ffffff)',
             WebkitBackgroundClip: 'text',

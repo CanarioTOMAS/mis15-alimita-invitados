@@ -44,7 +44,7 @@ export const Location = () => {
         <Typography variant="h4" fontFamily={"Libre Baskerville"}>
           Salón Elegantes
         </Typography>
-        <Typography variant="body1" fontFamily={"Libre Baskerville"}>
+        <Typography variant="h6" fontFamily={"Libre Baskerville"}>
           Juan Domingo Perón 542, Río Tercero
         </Typography>
       </CardContent>
