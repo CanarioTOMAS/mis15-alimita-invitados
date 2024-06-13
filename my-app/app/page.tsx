@@ -115,7 +115,7 @@ export default function Home() {
         />
       </Box>
       <GiftComponent></GiftComponent>
-      <Box sx={{p:6, width: "100%",
+      <Box sx={{p:6, pb:10,width: "100%",
           justifyContent: "center",
           alignItems: "center",textAlign:'center'}}>
         <Typography variant="h3" sx={{textAlign:"center", fontFamily:"Libre Baskerville",color:'black',fontWeight:900}} >CONFIRMAR ASISTENCIA</Typography>
