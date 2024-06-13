@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-      <div className="background">
+      {/* <div className="background">
    <span></span>
    <span></span>
    <span></span>
@@ -43,7 +43,8 @@ export default function RootLayout({
    <span></span>
    <span></span>
    <span></span>
-</div>  {children}</body>
+</div>   */}
+{children}</body>
     </html>
   );
 }

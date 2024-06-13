@@ -10,6 +10,7 @@ import FormAssist from "./components/formAsistencia";
 import GiftBox from "./components/exampleGift";
 import Box from "@mui/material/Box";
 import ImagenAlma from "../public/Imagen2-Alma.jpeg";
+import ImagenAlma2 from "../public/Imagen3-Alma.jpeg"
 import {
   Card,
   CardContent,
@@ -24,7 +25,7 @@ export default function Home() {
     <div className="bg-[url('../public/fondo21.jpg')] bg-contain ">
       <Header></Header>
       <Welcome></Welcome>
-      <Timer initialTime={new Date("2024-07-20T00:00:00").getTime()}></Timer>
+      <Timer initialTime={new Date("2024-07-20T21:00:00").getTime()}></Timer>
       <Box
         sx={{
           width: "100%",
@@ -59,8 +60,8 @@ export default function Home() {
           <Card
             sx={{
               // background: "radial-gradient(circle, #eeeeee 0%, #d7d7d7 100%)",
-              boxShadow: '10px 10px 5px 0px rgba(217,217,217,0.5)',
-              borderRadius:'20px'
+              boxShadow: "10px 10px 5px 0px rgba(217,217,217,0.5)",
+              borderRadius: "20px",
             }}
             className="bg-[url('../public/13.png')] bg-cover"
           >
@@ -109,21 +110,30 @@ export default function Home() {
           width: "100%",
           justifyContent: "center",
           alignItems: "center",
-          zIndex:200
+          zIndex: 200,
         }}
       >
         <Image
-          src={ImagenAlma}
+          src={ImagenAlma2}
           alt="Mis 15 - ALMA"
           style={{
             width: "100%",
             maskImage:
-              "linear-gradient(to bottom, transparent, black 15%, black % ,transparent )",
+              "linear-gradient(to bottom, transparent, black 15%, black 85% ,transparent )",
           }}
         />
       </Box>
       <GiftComponent></GiftComponent>
-      {/* <FormAssist></FormAssist> */}
+      <Box sx={{p:6,pb:16, width: "100%",
+          justifyContent: "center",
+          alignItems: "center",textAlign:'center'}}>
+        <Typography variant="h3" sx={{textAlign:"center", fontFamily:"Libre Baskerville",color:'white', fontSize:"6.5rem"}} >CONFIRMAR ASISTENCIA</Typography>
+        <Typography variant="h5">
+          Adultos - $25.000<br></br> Adolescentes(14 a 16) - $16.000 <br></br>
+          Niños(3 a 13) - $7.500 <br></br>Menores de 3 no pagan
+        </Typography>
+        <Button href="https://forms.gle/utRPutzkzEgH6gtX8" sx={{ bgcolor: "black", color: "white", borderRadius: 60 }}>Confirmar</Button>
+      </Box>
       <MusicPlayer></MusicPlayer>
     </div>
   );
