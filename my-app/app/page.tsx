@@ -118,11 +118,6 @@ export default function Home() {
       <Box sx={{p:6, pb:10,width: "100%",
           justifyContent: "center",
           alignItems: "center",textAlign:'center'}}>
-        <Typography variant="h3" sx={{textAlign:"center", fontFamily:"Libre Baskerville",color:'black',fontWeight:900}} >CONFIRMAR ASISTENCIA</Typography>
-        <Typography variant="h5" sx={{fontFamily:'Mate'}}>
-          Adultos - $25.000<br></br> Adolescentes(14 a 16) - $16.000 <br></br>
-          Niños(3 a 13) - $7.500 <br></br>Menores de 3 no pagan
-        </Typography>
         <Button href="https://forms.gle/utRPutzkzEgH6gtX8" sx={{ bgcolor: "black", color: "white", borderRadius: 60 ,width:'60%'}}>Confirmar</Button>
       </Box>
       <MusicPlayer></MusicPlayer>
